@@ -2,7 +2,6 @@
   "name": "brain-games_by_igor_lucky",
   "version": "1.1.0",
   "description": "Hexlet's project",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
@@ -25,10 +24,10 @@
   },
   "homepage": "https://github.com/Luckybox59/project-lvl1-s352#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1",
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
     "npx": "^10.2.0"
   },
   "dependencies": {
