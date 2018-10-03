@@ -1,22 +1,26 @@
 import readlineSync from 'readline-sync';
+import askName from '..';
 
-let randomNum = '';
-let userAnswer = '';
-let correctAnswer = '';
-const getRandomNum = () => Math.round(Math.random() * 100);
-const checkEven = num => ((num % 2 === 0) ? 'yes' : 'no');
-const playEven = (name) => {
-  for (let i = 0; i < 3; i += 1) {
-    randomNum = getRandomNum();
-    correctAnswer = checkEven(randomNum);
-    userAnswer = readlineSync.question(`Question: ${randomNum} `);
+
+const getRandomNum = () => Math.floor(Math.random() * 100) + 1;
+const isEven = num => (num % 2 === 0);
+
+const playBrainEven = () => {
+  const numOfQuestion = 3;
+  console.log('\nWelcome to the Brain Games!\nAnswer "yes" if number even otherwise answer "no".\n');
+  const userName = askName();
+  console.log(`Hello, ${userName}!\n`);
+  for (let i = 0; i < numOfQuestion; i += 1) {
+    const userQuestion = getRandomNum();
+    const correctAnswer = isEven(userQuestion) ? 'yes' : 'no';
+    const userAnswer = readlineSync.question(`Question: ${userQuestion} `);
     if (correctAnswer !== userAnswer) {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
       return;
     }
     console.log(`Your answer: ${userAnswer}\nCorrect!\n`);
   }
-  console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${userName}!`);
 };
 
-export default playEven;
+export default playBrainEven;
