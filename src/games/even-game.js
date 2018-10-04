@@ -1,12 +1,11 @@
 import readlineSync from 'readline-sync';
 import askName from '..';
 
-
 const getRandomNum = () => Math.floor(Math.random() * 100) + 1;
 const isEven = num => (num % 2 === 0);
+const numOfQuestion = 3;
 
 const playBrainEven = () => {
-  const numOfQuestion = 3;
   console.log('\nWelcome to the Brain Games!\nAnswer "yes" if number even otherwise answer "no".\n');
   const userName = askName();
   console.log(`Hello, ${userName}!\n`);
