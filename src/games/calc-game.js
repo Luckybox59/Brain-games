@@ -1,19 +1,26 @@
-import { getRandomNum, getRandomOperator, cons } from '../utils';
+import math from 'mathjs';
+import getRandomNum from '../game-utils';
+import cons from '../pair';
 import playGame from '../engine';
 
-const gameRules = 'What is the result of the expression?';
-const numOfQuestions = 3;
+const getRandomOperator = () => {
+  switch (Math.floor(Math.random() * 3) + 1) {
+    case 1: return '+';
+    case 2: return '-';
+    case 3: return '*';
+    default:
+      throw new Error('Unknown message');
+  }
+};
+const gameDescription = 'What is the result of the expression?';
+
 const makeTask = () => {
   const arg1 = getRandomNum();
   const arg2 = getRandomNum();
   const operator = getRandomOperator();
   const userQuestion = `${arg1} ${operator} ${arg2}`;
-  const correctAnswer = String(eval(userQuestion));
+  const correctAnswer = String(math.eval(userQuestion));
   return cons(userQuestion, correctAnswer);
 };
 
-const playBrainCalc = () => {
-  playGame(gameRules, numOfQuestions, makeTask);
-};
-
-export default playBrainCalc;
+export default () => playGame(gameDescription, makeTask);

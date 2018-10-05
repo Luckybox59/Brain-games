@@ -1,7 +1,10 @@
 import readlineSync from 'readline-sync';
-import { question, answer, askName } from './utils';
+import { question, answer } from './pair';
 
-const playGame = (gameRules, numOfQuestions, makeTask) => {
+export const askName = () => readlineSync.question('What is your name? ');
+const numOfQuestions = 3;
+
+const playGame = (gameRules, makeTask) => {
   console.log(`\nWelcome to the Brain Games!\n${gameRules}\n`);
   const userName = askName();
   console.log(`Hello, ${userName}!\n`);
