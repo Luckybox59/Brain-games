@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import { question, answer } from './pair';
 
-export const askName = () => readlineSync.question('What is your name? ');
+const askName = () => readlineSync.question('What is your name? ');
 const numOfQuestions = 3;
 
 const playGame = (gameRules, makeTask) => {
