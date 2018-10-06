@@ -3,13 +3,13 @@ import cons from '../pair';
 import playGame from '../engine';
 
 const getGcd = (num1, num2) => {
-  const minNum = Math.min(num1, num2);
-  const maxNum = Math.max(num1, num2);
-  const greatestPossibleDiv = Math.floor(minNum / 2);
-  if (maxNum % minNum === 0) return minNum;
+  const minNumber = Math.min(num1, num2);
+  const maxNumber = Math.max(num1, num2);
+  if (maxNumber % minNumber === 0) return minNumber;
+  const greatestPossibleDiv = Math.floor(minNumber / 2);
   const iter = (count) => {
     if (count === 1) return 1;
-    if (minNum % count === 0 && maxNum % count === 0) return count;
+    if (minNumber % count === 0 && maxNumber % count === 0) return count;
     return iter(count - 1);
   };
   return iter(greatestPossibleDiv);
