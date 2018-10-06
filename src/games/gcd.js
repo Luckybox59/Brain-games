@@ -5,8 +5,8 @@ import playGame from '../engine';
 const getGcd = (num1, num2) => {
   const minNum = Math.min(num1, num2);
   const maxNum = Math.max(num1, num2);
-  if (maxNum % minNum === 0) return minNum;
   const greatestPossibleDiv = Math.floor(minNum / 2);
+  if (maxNum % minNum === 0) return minNum;
   const iter = (count) => {
     if (count === 1) return 1;
     if (minNum % count === 0 && maxNum % count === 0) return count;

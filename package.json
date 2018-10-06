@@ -39,7 +39,6 @@
     "npx": "^10.2.0"
   },
   "dependencies": {
-    "mathjs": "^5.1.2",
     "readline-sync": "^1.4.9"
   }
 }
