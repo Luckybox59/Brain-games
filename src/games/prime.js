@@ -14,14 +14,14 @@ const isPrime = (num) => {
 
 //  Функция getOddRanddomNum убирает из выдачи четные числа, так на мой взгляд игра становится
 //  интересней, ведь все простые числа нечетные.
-const getOddRanddomNum = () => {
+const getOddRandomNum = () => {
   const oddRandom = getRandomNum(0, 1000000000);
   if (oddRandom % 2 !== 0) return oddRandom;
-  return getOddRanddomNum();
+  return getOddRandomNum();
 };
 
 const makeTask = () => {
-  const userQuestion = getOddRanddomNum();
+  const userQuestion = getOddRandomNum();
   const correctAnswer = isPrime(userQuestion) ? 'yes' : 'no';
   return cons(userQuestion, correctAnswer);
 };
