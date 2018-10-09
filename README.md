@@ -1,8 +1,9 @@
-First Hexlet's project
+First Hexlet's project:
+<p style="font-size: 30px">Brain-games</p>
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/3c2434b2f8269356d1cf/maintainability)](https://codeclimate.com/github/Luckybox59/project-lvl1-s352/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c6fb403409d0a8c2c351/maintainability)](https://codeclimate.com/github/Luckybox59/Brain-games/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/3c2434b2f8269356d1cf/test_coverage)](https://codeclimate.com/github/Luckybox59/project-lvl1-s352/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/c6fb403409d0a8c2c351/test_coverage)](https://codeclimate.com/github/Luckybox59/Brain-games/test_coverage)
 
 [![Build Status](https://travis-ci.org/Luckybox59/project-lvl1-s352.svg?branch=master)](https://travis-ci.org/Luckybox59/project-lvl1-s352)
 
