@@ -1,5 +1,4 @@
-First Hexlet's project:
-* <big>Brain-games</big>
+First Hexlet's project: Brain-games
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c6fb403409d0a8c2c351/maintainability)](https://codeclimate.com/github/Luckybox59/Brain-games/maintainability)
 
