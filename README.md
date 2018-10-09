@@ -1,5 +1,5 @@
 First Hexlet's project:
-<p style="font-size: 30px">Brain-games</p>
+<big>Brain-games</big>
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c6fb403409d0a8c2c351/maintainability)](https://codeclimate.com/github/Luckybox59/Brain-games/maintainability)
 
