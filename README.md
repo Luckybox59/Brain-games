@@ -6,7 +6,7 @@ First Hexlet's project:
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/c6fb403409d0a8c2c351/test_coverage)](https://codeclimate.com/github/Luckybox59/Brain-games/test_coverage)
 
-[![Build Status](https://travis-ci.org/Luckybox59/project-lvl1-s352.svg?branch=master)](https://travis-ci.org/Luckybox59/project-lvl1-s352)
+[![Build Status](https://travis-ci.org/Luckybox59/Brain-games.svg?branch=master)](https://travis-ci.org/Luckybox59/Brain-games)
 
 Install and run games >>>
 
