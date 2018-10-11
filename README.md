@@ -6,19 +6,19 @@
 
 [![Build Status](https://travis-ci.org/Luckybox59/Brain-games.svg?branch=master)](https://travis-ci.org/Luckybox59/Brain-games)
 
-Install and run games >>>
+*Install and run games* >>>
 
-Brain-even:
+### Brain-even:
 [![asciicast](https://asciinema.org/a/wTFYeTsYwIFdqBau1jDqUN3lW.png)](https://asciinema.org/a/wTFYeTsYwIFdqBau1jDqUN3lW)
 
-Brain-calc:
+### Brain-calc:
 [![asciicast](https://asciinema.org/a/DguOZKhSa0RX71kzUsgLrDFgn.png)](https://asciinema.org/a/DguOZKhSa0RX71kzUsgLrDFgn)
 
-Brain-gcd:
+### Brain-gcd:
 [![asciicast](https://asciinema.org/a/Lur4DnEVzVQjaZNClcmq9WtYw.png)](https://asciinema.org/a/Lur4DnEVzVQjaZNClcmq9WtYw)
 
-Brain-progression:
+### Brain-progression:
 [![asciicast](https://asciinema.org/a/rsglxpEEya6XqiVAPrRweC24b.png)](https://asciinema.org/a/rsglxpEEya6XqiVAPrRweC24b)
 
-Brain-prime:
+### Brain-prime:
 [![asciicast](https://asciinema.org/a/WgyeeTnhsqBWE72yKu6uQlKYy.png)](https://asciinema.org/a/WgyeeTnhsqBWE72yKu6uQlKYy)
