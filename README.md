@@ -1,4 +1,5 @@
 ***Luckybox59*** [![CodeWars](https://www.codewars.com/users/Luckybox59/badges/micro)](https://www.codewars.com/users/Luckybox59)
+***
 
 ## First Hexlet's project: *Brain-games*
 
