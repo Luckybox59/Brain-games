@@ -1,4 +1,4 @@
-https://www.codewars.com/users/Luckybox59/badges/micro
+[![CodeWars](https://www.codewars.com/users/Luckybox59/badges/micro)](https://www.codewars.com/users/Luckybox59/badges/micro)
 
 ## First Hexlet's project: *Brain-games*
 
